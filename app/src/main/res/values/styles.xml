@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTablayoutstyle" parent="Base.Widget.Design.TabLayout">
+        <item name="tabBackground">@color/colorPrimaryWhite</item>  //背景颜色
+        <item name="tabIndicatorColor">@color/colorPrimary</item>  //指示线的颜色
+        <item name="tabIndicatorHeight">2dp</item>  //指示线的高度
+        <item name="tabSelectedTextColor">@color/colorPrimaryDark</item>  //文字选中颜色
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="MyEditTextStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/text</item>
+        <item name="colorControlActivated">@color/text</item>
+    </style>
+
+</resources>
