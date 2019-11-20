@@ -21,7 +21,7 @@ public class UserActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_user);
 
     }
-
+	//cesvrbrdbtdbdstbsdtnb
     @Override
     public void onClick(View v) {
         switch (v.getId()){
