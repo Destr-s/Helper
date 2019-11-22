@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:padding="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="3dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+    <ImageView
+        android:id="@+id/logo_text_view"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_gravity="left|center_vertical"
+        android:scaleType="centerCrop"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:src="@drawable/userlogo"
+        />
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="20sp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="帮拿韵达快递"
+
+            />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="35sp"
+        android:layout_marginLeft="100sp"
+        android:id="@+id/label_cycle_view"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cost_text_view"
+            android:layout_gravity="right"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="20sp"
+            android:text="10元"
+            />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_text_view"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="100sp"
+        android:layout_marginBottom="10sp"
+        android:textSize="10sp"
+        android:text="剩余数量:"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/num_text_view"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="143sp"
+        android:layout_marginBottom="10sp"
+        android:text="1"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="65sp"
+        android:text="有效时间至:"
+        android:textSize="10sp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_text_view"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="10sp"
+        android:text="11/12 10:26"
+        android:textSize="10sp"
+        />
+
+
+</androidx.cardview.widget.CardView>
